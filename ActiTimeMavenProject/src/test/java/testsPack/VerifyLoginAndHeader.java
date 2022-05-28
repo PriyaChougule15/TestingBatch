@@ -92,10 +92,10 @@ public class VerifyLoginAndHeader extends Base {
 		//verifyTaskPage = null;
 	}
 	@AfterTest
-//	public void closeBrowser()
-//	{
-//		driver.close();
-//		driver = null;
-//		System.gc();
-//	}
+	public void closeBrowser()
+	{
+		//driver.close();
+		driver = null;
+		System.gc();
+	}
 }
