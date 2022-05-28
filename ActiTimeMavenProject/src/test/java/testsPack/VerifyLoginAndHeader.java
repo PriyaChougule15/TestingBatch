@@ -88,7 +88,7 @@ public class VerifyLoginAndHeader extends Base {
 	@AfterClass
 	public void clearPomObjects()
 	{
-		actiHeaders = null;
+		//actiHeaders = null;
 		//verifyTaskPage = null;
 	}
 	@AfterTest
