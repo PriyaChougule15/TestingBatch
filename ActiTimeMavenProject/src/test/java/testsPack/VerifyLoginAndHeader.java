@@ -89,7 +89,7 @@ public class VerifyLoginAndHeader extends Base {
 	public void clearPomObjects()
 	{
 		actiHeaders = null;
-		verifyTaskPage = null;
+		//verifyTaskPage = null;
 	}
 	@AfterTest
 //	public void closeBrowser()
